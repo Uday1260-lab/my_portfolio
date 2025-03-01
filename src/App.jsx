@@ -9,6 +9,7 @@ const App = () => {
           <Hero/>
         </div>
       </div>
+      
       <About/>
       <Experience/>
       <Tech/>
