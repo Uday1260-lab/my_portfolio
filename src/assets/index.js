@@ -24,6 +24,7 @@ import java from './tech/java.png'
 import cpp from './tech/cpp.png'
 import python from './tech/python.png'
 import springboot from './tech/springboot.png'
+import expressjs from './tech/expressjs.png'
 
 
 import meta from "./company/meta.png";
@@ -32,6 +33,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import todolist from'./todolist.png'
 import imagefy from './imagefy.png'
 import portal from './exam_portal.png'
 import jobit from "./jobit.png";
@@ -42,6 +44,7 @@ export {
   cpp,
   python,
   springboot,
+  expressjs,
   logo,
   backend,
   creator,
@@ -72,4 +75,5 @@ export {
   tripguide,
   imagefy,
   portal,
+  todolist,
 };

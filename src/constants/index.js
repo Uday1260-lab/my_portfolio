@@ -21,6 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
+  expressjs,
   tripguide,
   threejs,
   java,
@@ -29,6 +30,7 @@ import {
   springboot,
   imagefy,
   portal,
+  todolist,
 } from "../assets";
 
 export const navLinks = [
@@ -83,8 +85,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "Node JS",
@@ -253,6 +255,27 @@ const projects = [
       },
     ],
     image: imagefy,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "todo_List",
+    description:
+      "Web application that enables users to maintain a list of their daily activities.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todolist,
     source_code_link: "https://github.com/",
   },
 ];
