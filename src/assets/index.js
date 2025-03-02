@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from './tech/java.png'
+import cpp from './tech/cpp.png'
+import python from './tech/python.png'
+import springboot from './tech/springboot.png'
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +36,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  java,
+  cpp,
+  python,
+  springboot,
   logo,
   backend,
   creator,
