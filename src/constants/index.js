@@ -27,6 +27,8 @@ import {
   cpp,
   python,
   springboot,
+  imagefy,
+  portal,
 } from "../assets";
 
 export const navLinks = [
@@ -212,66 +214,45 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Exam Portal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows students to take exams online.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jsp",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portal,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Imagefy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to increase the resolution of image without degrading the quality of the image.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "esrgan",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "flask",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: imagefy,
     source_code_link: "https://github.com/",
   },
 ];

@@ -32,6 +32,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import imagefy from './imagefy.png'
+import portal from './exam_portal.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -68,4 +70,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  imagefy,
+  portal,
 };
