@@ -35,6 +35,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import todolist from'./todolist.png'
 import imagefy from './imagefy.png'
+import notes from './notes.png'
 import portal from './exam_portal.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -75,5 +76,6 @@ export {
   tripguide,
   imagefy,
   portal,
+  notes,
   todolist,
 };

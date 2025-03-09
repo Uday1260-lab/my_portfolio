@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -20,6 +19,21 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+      },
+      keyframes: {
+        typewriter: {
+          '0%': { width: '0' }, // Start with no width
+          '50%': { width: '100%' }, // Expand to full width
+          '100%': { width: '0' }, // Reset width for the next loop
+        },
+        blinkCursor: {
+          from: { 'border-right-color': 'transparent' }, // Hide cursor
+          to: { 'border-right-color': 'white' }, // Show cursor
+        },
+      },
+      animation: {
+        typewriter: 'typewriter 5s steps(30) infinite', // Adjust duration and steps
+        blinkCursor: 'blinkCursor 0.75s infinite', // Blinking cursor effect
       },
     },
   },

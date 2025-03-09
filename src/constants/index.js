@@ -31,6 +31,7 @@ import {
   imagefy,
   portal,
   todolist,
+  notes
 } from "../assets";
 
 export const navLinks = [
@@ -258,9 +259,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "todo_List",
+    name: "notes",
     description:
-      "Web application that enables users to maintain a list of their daily activities.",
+      "Web application that enables users to take easy notes at any time, any where.",
     tags: [
       {
         name: "javascript",
@@ -275,7 +276,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: todolist,
+    image: notes,
     source_code_link: "https://github.com/",
   },
 ];
