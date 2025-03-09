@@ -5,11 +5,19 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
-  const [isAndroid, setIsAndroid] = useState(false);
+
+  // const [isAndroid, setIsAndroid] = useState(false);
+
+  // useEffect(() => {
+  //   // Detect if the device is Android
+  //   setIsAndroid(/Android/i.test(navigator.userAgent));
+  // }, []);
+
+  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    // Detect if the device is Android
-    setIsAndroid(/Android/i.test(navigator.userAgent));
+    // Detect if the device is desktop based on screen width
+    setIsDesktop(window.innerWidth >= 1024); // Change 1024px as the breakpoint for desktop
   }, []);
 
   return (
@@ -35,7 +43,7 @@ const Hero = () => {
       </div>
 
       {/* Render terminal.gif only if the device is Android */}
-      {isAndroid ? (
+      {/* {isAndroid ? (
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 transform translate-x-[17.5rem] translate-y-[7rem] rounded-xl">
             <img
@@ -47,7 +55,11 @@ const Hero = () => {
         </div>
       ) : (
         <ComputersCanvas />
-      )}
+      )} */}
+
+
+      {/* Show ComputersCanvas only on desktop */}
+      {isDesktop && <ComputersCanvas />}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
