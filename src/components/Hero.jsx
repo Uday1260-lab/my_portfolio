@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       {/* Centered GIF with Thinner Gradient Border */}
-      <div className="absolute inset-0 flex justify-center items-center">
+      {/* <div className="absolute inset-0 flex justify-center items-center">
         <div className="p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500  transform translate-x-[17.5rem] translate-y-[7rem] rounded-xl">
           <img
             src="./src/assets/terminal.gif"
@@ -31,7 +31,9 @@ const Hero = () => {
             className="w-[400px] h-[400px] object-contain rounded-xl"
           />
         </div>
-      </div>
+      </div> */}
+
+      <ComputersCanvas/>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
