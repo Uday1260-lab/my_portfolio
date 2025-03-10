@@ -6,12 +6,12 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
 
-  // const [isAndroid, setIsAndroid] = useState(false);
+  const [isAndroid, setIsAndroid] = useState(false);
 
-  // useEffect(() => {
-  //   // Detect if the device is Android
-  //   setIsAndroid(/Android/i.test(navigator.userAgent));
-  // }, []);
+  useEffect(() => {
+    // Detect if the device is Android
+    setIsAndroid(/Android/i.test(navigator.userAgent));
+  }, []);
 
   const [isDesktop, setIsDesktop] = useState(false);
 
@@ -43,23 +43,23 @@ const Hero = () => {
       </div>
 
       {/* Render terminal.gif only if the device is Android */}
-      {/* {isAndroid ? (
+      {isAndroid ? (
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 transform translate-x-[17.5rem] translate-y-[7rem] rounded-xl">
+          <div className="p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 transform translate-y-[5rem] rounded-xl">
             <img
               src="./src/assets/terminal.gif"
               alt="terminal"
-              className="w-[400px] h-[400px] object-contain rounded-xl"
+              className="w-[300px] h-[300px] object-contain rounded-xl"
             />
           </div>
         </div>
       ) : (
         <ComputersCanvas />
-      )} */}
+      )}
 
 
       {/* Show ComputersCanvas only on desktop */}
-      {isDesktop && <ComputersCanvas />}
+      {/* {isDesktop && <ComputersCanvas />} */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
