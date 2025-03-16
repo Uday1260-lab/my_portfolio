@@ -28,6 +28,7 @@ import expressjs from './tech/expressjs.png'
 import imagefy from './imagefy.png'
 import notes from './notes.png'
 import portal from './exam_portal.png'
+import chatapp from "./ChatApp.png"
 
 export {
   java,
@@ -59,4 +60,5 @@ export {
   imagefy,
   portal,
   notes,
+  chatapp,
 };

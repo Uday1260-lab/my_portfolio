@@ -23,7 +23,8 @@ import {
   springboot,
   imagefy,
   portal,
-  notes
+  notes,
+  chatapp,
 } from "../assets";
 
 export const navLinks = [
@@ -248,6 +249,27 @@ const projects = [
       },
     ],
     image: imagefy,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Realtime ChatApp",
+    description:
+      "Web application that enables users to Chat in real-time.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sokect.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatapp,
     source_code_link: "https://github.com/",
   },
   {

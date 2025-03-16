@@ -7,7 +7,7 @@ import CanvasLoader from "../Loader";
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop="demand" // Changed from 'always' to reduce load
+      frameloop="always" // Changed from 'always' to reduce load
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
