@@ -25,20 +25,9 @@ import cpp from './tech/cpp.png'
 import python from './tech/python.png'
 import springboot from './tech/springboot.png'
 import expressjs from './tech/expressjs.png'
-
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import todolist from'./todolist.png'
 import imagefy from './imagefy.png'
 import notes from './notes.png'
 import portal from './exam_portal.png'
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   java,
@@ -67,15 +56,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   imagefy,
   portal,
   notes,
-  todolist,
 };

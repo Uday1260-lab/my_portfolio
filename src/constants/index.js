@@ -15,14 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   expressjs,
-  tripguide,
   threejs,
   java,
   cpp,
@@ -30,7 +23,6 @@ import {
   springboot,
   imagefy,
   portal,
-  todolist,
   notes
 } from "../assets";
 
